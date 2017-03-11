@@ -1,0 +1,27 @@
+html, body {
+    padding: 20px;
+    min-width: 500px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+.btn-danger, .btn-default {
+    margin: 5px;
+}
+
+.btn-info{
+    background-color: cornflowerblue;
+    cursor: default;
+}
+
+.btn-info:hover{
+    background-color: cornflowerblue;
+    cursor: default;
+}
