@@ -39,7 +39,7 @@ $scope.deleteTask = function () {
     localStorage.setItem('tasks', JSON.stringify($scope.task));
 };
 $scope.editTask = function () {
-    $scope.task = $scope.tasks.task;
+    //$scope.task = $scope.tasks.task;
 
     localStorage.setItem('tasks', JSON.stringify($scope.task));
    //$scope.editTask = function (index) {

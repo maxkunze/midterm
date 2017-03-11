@@ -41,6 +41,7 @@
           </h5>
           </label>
         </li>
+        <!-- ng-repeat="task in task | filter: { complete: false } track by task.complete" -->
         <li ng-hide="!task.complete" ng-repeat="task in task track by $index" ng-model="task">
           <input type="checkbox" ng-model="task.complete" ng-change="save()" id="checker">
           <label for="checker">
