@@ -1,0 +1,26 @@
+html, body {
+    padding-top: 20px;
+    min-width: 200px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+input[type=checkbox] {
+    opacity: 100;
+    /*doesn't work as well when opacity 0(?)*/
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
